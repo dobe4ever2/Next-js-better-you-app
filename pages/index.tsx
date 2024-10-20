@@ -115,9 +115,9 @@ export default function Component() {
         </div>
 
         {/* Sticky Top */}
-        <div className="sticky top-2 z-30">
+        <div className="sticky top-0 z-30">
           <div className="container mx-auto w-[95%] py-3">
-            <div className="flex items-center border-y p-1 bg-white">
+            <div className="flex items-center border-y p-1 m-2 bg-white">
               <Search className="ml-2 h-4 w-4 text-gray-500" />
               <input
                 type="text"

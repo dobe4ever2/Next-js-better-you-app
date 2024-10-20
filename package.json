@@ -6,6 +6,8 @@
     "dev": "next dev --port 3000 --hostname 0.0.0.0",
     "build": "next build",
     "start": "next start --port 3000 --hostname 0.0.0.0",
+    "export": "next export",
+    "deploy": "next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy to gh-pages\" && git subtree push --prefix out origin gh-pages",
     "lint": "next lint"
   },
   "dependencies": {
@@ -19,6 +21,7 @@
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.11.9",
+    "gh-pages": "^6.2.0",
     "lucide-react": "^0.452.0",
     "next": "^14.2.15",
     "react": "^18.3.1",
