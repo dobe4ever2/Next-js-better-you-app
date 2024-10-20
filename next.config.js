@@ -1,11 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  basePath: '/Next-js-better-you-app',
-  assetPrefix: '/Next-js-better-you-app/',
-  images: {
-    loader: 'akamai',
-    path: '',
-  },
-}
+const nextConfig = {}
 
 module.exports = nextConfig
