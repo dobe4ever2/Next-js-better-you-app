@@ -1,3 +1,4 @@
+// pages/posts/[id].js
 import { useRouter } from 'next/router'
 
 export default function Post() {
